@@ -1,0 +1,195 @@
+#id1 {text-align: center;text-decoration: none;text-shadow: 300;color: darkslategray;font-size: 70px}
+body{
+    
+   background: linear-gradient(90deg,#939799,#ecf8e5,#ecf8e5,#939799);
+}
+
+  .button {
+  background-color: #ADD0B3; /* Green */
+  border: none;
+  color:darkslategray;
+  padding: 52px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 10px 10px;
+  cursor:pointer;
+  border-radius: 12.75px;
+  position:  down:40px;
+  font-family: "applegothic";
+}  
+.button2 {background-color: #CEE5ED;} /* Blue */
+.button3 {background-color: #F6B8D0;} /* Pink */
+.button4 {background-color: #F8F1AE;} /* Yellow */
+.button5 {background-color: #FFC0CB;} /* Red */
+.button6 {background-color: #A4D8D8;} /* Cyan */
+.button7 {background-color: #D4AFB9;}/*Lavender*/
+.button4 {margin-left: 280px;} 
+#id333 {margin-left: 280px;}
+.button6 {margin-bottom: 500px;}
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#kkk{text-decoration: none;color: #13B5E6;font-size: 100px;text-align: center;font-family: "applegothic";}
+#aaa{width: 600px;margin: 40px;margin-right: 0px;font-family: "applegothic";}
+#VMSA{text-decoration: none;color: #E10A0A;font-size: 70px;text-align: center;font-family: "applegothic";}
+#VMSI{width: 600px;margin: 40px;margin-right: 0px;text-align: center;font-family: "applegothic";}
+#abcd{color: #13B5E6;font-size: 55px;text-align: center;font-family: "applegothic";}
+#bcd{color: #E10A0A;font-size: 55px;text-align: center;font-family: "applegothic";}
+#q123{color: #13B5E6;font-size: 55px;text-align: center;font-family: "applegothic";}
+#a23456{width: 600px;margin: 40px;margin-right: 0px;font-family: "applegothic";}
+#ddd{color: #003399;font-size: 55px;text-decoration: none;font-family: "applegothic";text-align: center}
+#bbb{color: #ffcc00;font-size: 55px;text-align: center;text-decoration: none;font-family: "applegothic";}
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "applegothic";
+}
+
+footer{
+  background: #f1f1f1; 
+  padding: 90px 0;
+}
+
+.footer-container{
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+.logo{
+  width: 400px;
+}
+
+.social-media{
+  margin: 20px 0;
+}
+
+.social-media a{
+  color: #001a21;
+  margin-right: 25px;
+  font-size: 22px;
+  text-decoration: none;
+  transition: .3s linear;
+}
+
+.social-media a:hover{
+  color: #A4D8D8;
+}
+
+.right-col h1{
+  font-size: 26px;
+}
+
+.border{
+  width: 100px;
+  height: 4px;
+  background: #A4D8D8;
+}
+
+.newsletter-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.txtb{
+  flex: 1;
+  padding: 18px 40px;
+  font-size: 16px;
+  color: #293043;
+  background: #ddd;
+  border: none;
+  font-weight: 700;
+  outline: none;
+  border-radius: 30px;
+  min-width: 260px;
+}
+
+.btn{
+  padding: 18px 40px;
+  font-size: 16px;
+  color: #f1f1f1;
+  background: #A4D8D8;
+  border: none;
+  font-weight: 700;
+  outline: none;
+  border-radius: 30px;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: opacity .3s linear;
+}
+
+.btn:hover{
+  opacity: .7;
+}
+
+.page-content{
+  min-height: 100vh;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width:960px) {
+  .footer-container{
+    max-width: 600px;
+  }
+  .right-col{
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .left-col{
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width:700px){
+  .btn{
+    margin: 0;
+    width: 100%;
+    margin-top: 20px;
+    }
+    #a1234{font-family: "applegothic";}
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #939799;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #E5ECF8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "applegothic";
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #E5ECF8;
+  color: #939799;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #A4D8D8;
+  color: white;
+}
+
+
+/*==============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================*/
